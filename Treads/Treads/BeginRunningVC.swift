@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import MapKit
 
 class BeginRunningVC: UIViewController {
-
+    @IBOutlet weak var myMapView: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
-
+    @IBAction func locationCenterButton(_ sender: Any) {
+    }
+    
 }
 
