@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31310DC921F5EA580014E82B /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31310DC821F5EA580014E82B /* LocationVC.swift */; };
+		319CDA8721F7033F00966133 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319CDA8621F7033F00966133 /* CurrentRunVC.swift */; };
 		31DE1BFF21EF1CE400A30CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE1BFE21EF1CE400A30CEE /* AppDelegate.swift */; };
 		31DE1C0121EF1CE400A30CEE /* BeginRunningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE1C0021EF1CE400A30CEE /* BeginRunningVC.swift */; };
 		31DE1C0321EF1CE400A30CEE /* RunningLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE1C0221EF1CE400A30CEE /* RunningLogVC.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		31310DC821F5EA580014E82B /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		319CDA8621F7033F00966133 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 		31DE1BFB21EF1CE400A30CEE /* Treads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DE1BFE21EF1CE400A30CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31DE1C0021EF1CE400A30CEE /* BeginRunningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunningVC.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				31310DC821F5EA580014E82B /* LocationVC.swift */,
+				319CDA8621F7033F00966133 /* CurrentRunVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319CDA8721F7033F00966133 /* CurrentRunVC.swift in Sources */,
 				31DE1C0321EF1CE400A30CEE /* RunningLogVC.swift in Sources */,
 				31310DC921F5EA580014E82B /* LocationVC.swift in Sources */,
 				31DE1BFF21EF1CE400A30CEE /* AppDelegate.swift in Sources */,
