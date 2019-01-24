@@ -21,6 +21,8 @@ class CurrentRunVC: LocationVC {
     var startLocation: CLLocation!
     var lastLocation: CLLocation!
     var runDistance: Double = 0.00
+    var counter = 0
+    var timer = Timer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,9 +40,20 @@ class CurrentRunVC: LocationVC {
     }
     func startRun() {
         manager?.stopUpdatingLocation()
+        startTimer()
     }
     func endRun() {
         manager?.stopUpdatingLocation()
+    }
+    
+    func startTimer() {
+        durationLabel.text = counter.formatTimeDurationToString()
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateCounter), userInfo: nil, repeats: true)
+    }
+    @objc func updateCounter() {
+        counter += 1
+        durationLabel.text = counter.formatTimeDurationToString()
+        
     }
     @IBAction func pause(_ sender: Any) {
     }
@@ -96,5 +109,24 @@ extension CurrentRunVC: CLLocationManagerDelegate {
             distanceLabel.text = "\(runDistance.metersToMiles(places: 2))"
         }
         lastLocation = locations.last
+    }
+}
+
+extension Int {
+    func formatTimeDurationToString() -> String {
+        let durationHours = self / 3600
+        let durationMinutes = (self % 3600) / 60
+        let durationSeconds = (self % 3600) % 60
+        
+        if durationSeconds < 0 {
+            return "00:00:00"
+        } else {
+            if durationHours == 0 {
+                return String(format: "%02:%02", durationMinutes, durationSeconds)
+            } else {
+                return String(format: "%02%02:%02", durationHours, durationMinutes, durationSeconds)
+            }
+        }
+        
     }
 }
