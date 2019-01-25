@@ -11,7 +11,6 @@ import MapKit
 
 class BeginRunningVC: LocationVC {
     @IBOutlet weak var myMapView: MKMapView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         checkLocationAuthStatus()
@@ -21,6 +20,7 @@ class BeginRunningVC: LocationVC {
     
     override func viewWillAppear(_ animated: Bool) {
         manager?.delegate = self
+        myMapView.delegate = self
         manager?.startUpdatingLocation()
     }
     
