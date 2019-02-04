@@ -5,6 +5,7 @@ Things i worked on and learnt includes -
 2. UIPanGestureRecognizer
 3. Timer
 4. Extensions
+5. Cocoapods
 
 
 
