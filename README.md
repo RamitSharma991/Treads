@@ -8,8 +8,3 @@ Things i worked on and learnt includes -
 5. Cocoapods
 6. RealmSwift
 7. Tableviews
-
-
-
-
-
