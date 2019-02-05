@@ -12,6 +12,7 @@
 		319CDA8721F7033F00966133 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319CDA8621F7033F00966133 /* CurrentRunVC.swift */; };
 		31BEC0B72207FCF4000E36B6 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BEC0B62207FCF4000E36B6 /* Run.swift */; };
 		31BEC0B922083AA8000E36B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BEC0B822083AA8000E36B6 /* Constants.swift */; };
+		31BEC0BB220944DB000E36B6 /* RunLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BEC0BA220944DB000E36B6 /* RunLogCell.swift */; };
 		31DE1BFF21EF1CE400A30CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE1BFE21EF1CE400A30CEE /* AppDelegate.swift */; };
 		31DE1C0121EF1CE400A30CEE /* BeginRunningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE1C0021EF1CE400A30CEE /* BeginRunningVC.swift */; };
 		31DE1C0321EF1CE400A30CEE /* RunningLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE1C0221EF1CE400A30CEE /* RunningLogVC.swift */; };
@@ -46,6 +47,7 @@
 		319CDA8621F7033F00966133 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 		31BEC0B62207FCF4000E36B6 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
 		31BEC0B822083AA8000E36B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		31BEC0BA220944DB000E36B6 /* RunLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogCell.swift; sourceTree = "<group>"; };
 		31DE1BFB21EF1CE400A30CEE /* Treads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DE1BFE21EF1CE400A30CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31DE1C0021EF1CE400A30CEE /* BeginRunningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunningVC.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 		31DE1C1621EF208000A30CEE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				31BEC0BA220944DB000E36B6 /* RunLogCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				31310DC921F5EA580014E82B /* LocationVC.swift in Sources */,
 				31DE1BFF21EF1CE400A30CEE /* AppDelegate.swift in Sources */,
 				31BEC0B72207FCF4000E36B6 /* Run.swift in Sources */,
+				31BEC0BB220944DB000E36B6 /* RunLogCell.swift in Sources */,
 				31DE1C0121EF1CE400A30CEE /* BeginRunningVC.swift in Sources */,
 				31BEC0B922083AA8000E36B6 /* Constants.swift in Sources */,
 			);
