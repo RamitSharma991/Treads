@@ -37,7 +37,7 @@ extension RunningLogVC: UITableViewDelegate, UITableViewDataSource {
             return RunLogCell()
             
         }
-        
+
     }
     
 }
