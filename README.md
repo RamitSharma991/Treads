@@ -6,6 +6,7 @@
 </p>
 
 -Every resource and code is used for educational purposes.
+
 Things i worked on and learnt includes -
 1. Mapkit
 2. UIPanGestureRecognizer
