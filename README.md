@@ -1,7 +1,7 @@
 # Treads
 # A Fitness app with distance tracking
 
-https://img.shields.io/badge/swift-%204%20%7C%204.2%20-blue.svg
+<img src="https://img.shields.io/badge/swift-%204%20%7C%204.2%20-blue.svg" />
 
 
 Things i worked on and learnt includes -
