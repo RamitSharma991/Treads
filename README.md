@@ -1,5 +1,5 @@
 # Treads
-# A Fitness app with distance tracking
+# A Fitness app with distance tracking.
 
 
 <p align="center">
