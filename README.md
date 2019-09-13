@@ -1,5 +1,4 @@
-# Treads
-# A Fitness app with distance tracking.
+# Treads - A Fitness app with distance tracking.
 
 
 <p align="center">
@@ -22,7 +21,9 @@ Things i worked on and learnt includes -
 
 
 ### Screenshots
-![]()
+
 ![](https://github.com/RamitSharma991/Treads/blob/master/Screenshot%202019-09-13%20at%2012.21.11%20PM.png)
+
 ![](https://github.com/RamitSharma991/Treads/blob/master/Screenshot%202019-09-13%20at%2012.21.57%20PM.png)
+
 ![](https://github.com/RamitSharma991/Treads/blob/master/Screenshot%202019-09-13%20at%2012.22.39%20PM.png)
