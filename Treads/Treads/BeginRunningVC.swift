@@ -71,8 +71,9 @@ class BeginRunningVC: LocationVC {
             coordinates.append(CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude))
         }
         myMapView.userTrackingMode = .none
+        guard let locations = Run.getRun(byId: lastRun.id)?.locations else { return MKPolyline()}
         myMapView.setRegion(centerMapPreviousRoute(locations: lastRun.locations), animated: true)
-        return MKPolyline(coordinates: coordinates, count: lastRun.locations.count)
+        return MKPolyline(coordinates: coordinates, count: locations.count)
     }
     
     func centerMapOnUserLocation() {
